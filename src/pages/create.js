@@ -149,20 +149,19 @@ export default function Create() {
                         value={review}
                     />
                 </div>
-                <input 
-                    type="submit" 
-                    value="Register book" 
+                <button 
+                    type="submit"
                     style={{
                         padding: "15px 20px",
                         minWidth: "200px",
                         border: "none",
                         borderRadius: "5px",
-                        backgroundColor: "#1e9638",
+                        backgroundColor: "rgb(209 0 0)",
                         color: "white",
                         fontWeigth: "bolder",
                         fontSize: "18px",
                     }}
-                />
+                >Register book</button>
             </form>
         </Layout>
     );

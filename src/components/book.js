@@ -5,6 +5,7 @@ export const Book = ({ item }) => {
     const bookContainerStyle = {
         display: 'flex',
         flexDirection: 'row',
+        marginBottom: '50px',
         width: "200px",
     }
 
@@ -20,7 +21,9 @@ export const Book = ({ item }) => {
     const titleStyle = {
         marginTop: "10px",
         fontWeight: "bolder",
-        fontFamily: "serif",
+        fontFamily: "ui-monospace",
+        fontSize: "19px",
+        textShadow: "1px 1px 1px black",
     }
     
     return(
